@@ -1,0 +1,119 @@
+.cart{
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    background-color: #ffffff;
+    border: 2px solid #cccccc;
+    border-radius: 8px;
+    height: 100%;
+    width: 0;
+    /* overflow: scroll; */
+    display: none;
+    padding: 10px;
+    z-index: 1000;
+}
+.cart h3{
+    font-family: 'Lexend';
+    font-size: 20px;
+    font-weight: 700;
+    color: #392D6E;
+    line-height: 1.8;
+}
+.cart .sub-head{
+    font-family: 'Lexend';
+    font-size: 16px;
+}
+.sub-head span{
+    font-family: 'Lexend';
+    font-size: 14px;
+}
+#cartdata{
+    margin-top: 30px;
+    height: 350px;
+    
+}
+.cart .input-group > .form-control {
+    position: relative;
+    flex: none;
+    width: 50px;
+    min-width: 0;
+    padding: 0.375rem 1rem;
+}
+.cart .del {
+    color:#2e2e2e;
+}
+.cart .del svg{
+        margin-top: 10px;
+}
+.chkout{
+    position: absolute !important;
+    bottom: 0;
+    right:22;
+    width: 100%;
+}
+.chkout p{
+    font-size: 12px;
+}
+.input-group-btn {
+    border: 1px solid #ccc;
+}
+
+@media (max-width: 768px){
+    .cart{
+        width:92% !important;
+    }
+    .chkout{
+        position: absolute !important;
+        right:22px;
+        bottom: 0;
+        width: 100%;
+    }
+}
+
+/*** Slider ****/
+#slider {
+    position: relative;
+    overflow: hidden;
+    margin: 20px auto 0 auto;
+    border-radius: 4px;
+  }
+  
+  #slider ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    list-style: none;
+  }
+  
+  #slider ul li {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 850px;
+    
+  }
+.owl-item p{
+  background: #FFF2C7;
+  padding: 8px 12px;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: 350;
+  font-family: 'Lexend';
+  margin: 0px;
+}
+.owl-item h5 {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 0px;
+    color: #000000;
+    text-align: center;
+    background: url(../images/quote-bg-center.png) no-repeat top center;
+    background-size: initial;
+    padding-top: 18px;
+}
