@@ -10,7 +10,6 @@ class ProductModel{
         $con = $this->conn->getConnection();
         
         $products = $con->query($sql);
-        var_dump($products);
         return $products;
        
     }

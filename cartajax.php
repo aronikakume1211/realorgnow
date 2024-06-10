@@ -81,5 +81,5 @@ foreach($cartData as $key=> $cd){
     </div>
     <p>Taxes and fees calculated at checkout</p>
     <a class="btn btn-primary btn-checkout mt-2" href="checkout.php">Checkout</a>
-    <a class="text-center mt-2 mb-2 continue_shop" href="#">Keep Shopping --</a>
+    <a class="text-center mt-2 mb-2 continue_shop" href="#">Keep Shopping <span aria-hidden="true"> →</span></a>
 </div>

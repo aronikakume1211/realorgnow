@@ -5,6 +5,8 @@ $productModel = new ProductModel();
 $productResults = $productModel->getProduts();
 
 // var_dump($productResults);
+// $cartData = $_SESSION['cart'];
+// var_dump(count($cartData));
 
 ?>
 <?php include_once('view/header.php') ?>
@@ -136,7 +138,10 @@ $productResults = $productModel->getProduts();
                                 <div class="actual-price-block"><span>$14.99</span></div>
                             </div>
                             <div class="buy-now-btn-block">
-                                <a class="buy-now-button" data-product-id="1" disablebtn="false">Buy Now</a>
+                                <a class="buy-now-button" data-product-id="1" disablebtn="false">
+                                    <span>Buy Now</span>
+                                    <img src="assets/images/loader.gif" alt="loader" class="buy_now_btn_loader">
+                                </a>
                             </div>
                         </div>
 
@@ -166,7 +171,10 @@ $productResults = $productModel->getProduts();
                                 <div class="actual-price-block"><span>$14.99</span></div>
                             </div>
                             <div class="buy-now-btn-block">
-                                <a class="buy-now-button" data-product-id="2" disablebtn="true">Buy Now</a>
+                                <a class="buy-now-button" data-product-id="2" disablebtn="true">
+                                    <span>Buy Now</span>
+                                    <img src="assets/images/loader.gif" alt="loader" class="buy_now_btn_loader">
+                                </a>
                             </div>
                         </div>
 
@@ -196,7 +204,10 @@ $productResults = $productModel->getProduts();
                                 <div class="actual-price-block"><span>$15.99</span></div>
                             </div>
                             <div class="buy-now-btn-block">
-                                <a class="buy-now-button" data-product-id="3" disablebtn="false">Buy Now</a>
+                                <a class="buy-now-button" data-product-id="3" disablebtn="false">
+                                    <span>Buy Now</span>
+                                    <img src="assets/images/loader.gif" alt="loader" class="buy_now_btn_loader">
+                                </a>
                             </div>
                         </div>
 
